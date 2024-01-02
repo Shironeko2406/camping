@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf4f2;
+}
+/* header */
+.header{
+    background-color: #f8e1db;
+    padding: 10px 40px;
+}
+
+.header-nav{
+    list-style: none;
+    padding-top: 10px;
+}
+.header-nav li{
+    display: inline;
+    margin-right: 30px;
+}
+/* carousel */
+.carousel {
+    background-image: url('../img/BG.png');
+    background-size: cover; /* or 'contain' depending on your preference */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px; /* Set your desired height */
+}
+
+/* activity */
+.activity{
+    padding: 50px 0;
+}
+
+.activity-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.activity-title img {
+    max-width: 100px; /* Thay đổi kích thước hình ảnh theo nhu cầu */
+    height: auto;
+}
+
+.activity-title h1 {
+    margin-top: 10px; /* Khoảng cách giữa hình ảnh và tiêu đề */
+    color: #939393; /* Màu sắc tiêu đề */
+    font-size: 25px;
+}
+.activity-item{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.activity-inner{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 50px;
+}
+.activity-img img{
+    width: 100%;
+    border-radius: 50px;
+}
+.activity-content {
+    text-align: center;
+}
+.activity-content h4{
+    font-size: 20px;
+    color: #333;
+}
+.activity p{
+    color: #939393;
+}
+
+h4, p, button {
+    margin: 20px 0;
+}
+
+.activity-content button {
+    background-color: #e8e8e8;
+    color: #939393;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.activity-button{
+    text-align: center;
+}
+.activity-button button {
+    background-color: #faf4f2;
+    color: #e77458;
+    padding: 15px 70px;
+    border: 2px solid #e77458; /* Add border with the specified color */
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.activity-inner {
+    position: relative;
+}
+
+.activity-img {
+    position: relative;
+}
+
+.activity-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px; /* Adjust the right position to the top-right corner */
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.7); /* Add white background */
+    padding: 15px; /* Adjust padding as needed for the shadow effect */
+    border-radius: 25%; /* Make it circular */
+}
+
+.fa-heart {
+    font-size: 20px;
+    color: #e76f51;
+}
+
+/* mid-footer */
+
+.mid-footer{
+    
+    background-color: #f8e1db;
+    height: 450px;
+}
+
+.mid-footer-img {
+    float: left;
+    width: 50%;
+    padding-left: 60px;
+    background: url(../img/mask.png);
+    background-size: cover; /* or 'contain' depending on your preference */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top: 20px;
+}
+.mid-footer-img img{
+    width: 500px;
+    height: 400px;
+}
+.mid-footer-content {
+    display: flex;
+    padding: 80px 65px 0 45px;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if the container is too small */
+}
+
+.info-app,
+.info-follow {
+    width: 50%; /* Adjust the width as needed, leaving some space for margins */
+    max-width: 300px; /* Optional: Adjust the maximum width as needed */
+}
+
+
+.icon-follow i{
+    color: #e76f51;
+}
+.mid-footer-content h1,
+.mid-footer-content h4,
+.mid-footer-content p {
+    color: #8d8d8d;
+}
+.icon-follow i{
+    padding: 0 5px;
+    font-size: 20px;
+}
+.icon-follow :first-child {
+    padding-left: 0;
+}
+
+/* footer */
+.footer{
+   position: relative;
+   height: auto;
+   padding: 50px 50px;
+   background-color: #f8e1db;
+   margin-top: 100px;
+   border-radius: 100px 100px 0 0;
+}
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.footer .row .col h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer .row .col ul li{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footer .row .col ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
